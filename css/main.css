@@ -1,0 +1,94 @@
+#myimg
+{
+    height: 300px;
+    width:300px;
+    border-radius:150px;
+    border-color: gray;
+}
+#main
+{
+    width: 80%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+.edu,.skill,.project,.work,.miniinfo,.info,.propic
+{
+    padding: 1%;
+
+}
+
+.icon
+{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.bicon{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.smallheads
+{
+    text-align: right;
+    font-style: italic;
+}
+
+.info
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Garamond;
+    font-size: 1.5em;
+}
+
+#bigname
+{
+    font-size: 4em;
+    letter-spacing: 1px;
+}
+
+h1
+{
+    font-family: Garamond;
+    margin: 0px;
+}
+
+#contact
+{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Garamond;
+    letter-spacing: 1px;
+    padding: 1%;
+}
+
+
+#personal,#education,#project,#skill,#work
+{
+    padding: 5%;
+}
+
+.level
+{
+    font-size: 0.8em;
+}
+
+.project,.edu,.work
+{
+    padding-bottom:5%;
+}
+
+.shortInfo,.score,.inst,.board,.experience
+{
+    font-size: 22px;
+}
+
+.tags
+{
+    font-size: 15px;
+}
