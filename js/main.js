@@ -265,16 +265,16 @@ function loadSkills()
 	    html= html + 
 	    '<div id="" class="skill">\
 	    <img id="" class="icon" src="'+skill['icon']+'">\
-	    <span id="" class="name">'+skill['name']+'</span>\
+	    <span id="" class="name">'+skill['name']+'</span><br>s\
 	    <table class="stable">';
 	    
 	    for(j=0;j<skill['list'].length;j++)	    
 	    {
 	        html = html +
-	        '<div><tr>\
+	        '<tr>\
 	        <td id="" class="sname">'+skill['list'][j].name+'</td>\
 	        <td id="" class="slevel">'+skill['list'][j].level+'</td></tr>\
-	        <tr><td id="" class="sknows">Worked with:&nbsp;'+skill['list'][j].knows+'</td></tr></div>';
+	        <tr><td id="" class="sknows">Worked with:&nbsp;'+skill['list'][j].knows+'</td></tr>';
 	        
         }   
 	        
