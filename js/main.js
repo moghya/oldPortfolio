@@ -273,9 +273,8 @@ function loadSkills()
 	        html = html +
 	        '<tr>\
 	        <td id="" class="sname">'+skill['list'][j].name+'</td>\
-	        <td id="" class="slevel">'+skill['list'][j].level+'</td>\
-            <td id="" class="sknows">Worked with:&nbsp;'+skill['list'][j].knows+'</td>\
-            </tr>';
+	        <td id="" class="slevel">'+skill['list'][j].level+'</td></tr>\
+            <tr id="" class="sknows">Worked with:&nbsp;'+skill['list'][j].knows+'</tr>';
 	        
         }   
 	        
