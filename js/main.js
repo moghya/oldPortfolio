@@ -11,7 +11,7 @@ personalInfo = {
 	},
 	"email":
 	{
-		"icon":"email.png",
+		"icon":"at.png",
 		"list":["sawantshubham571@gmail.com"]
 	},
 	"mob":
@@ -53,46 +53,84 @@ educations=
 
 skills=
 [
-	{
-		"name":"PHP",
-		"level":"Intermediate",
-		"sinfo":"Can manage backend of web apps at mid level."
-	},
-	/*	{
-		"name":"PHP",
-		"level":"Intermediate",
-		"sinfo":"Can manage backend of web apps at mid level."
-	},
-	{
-		"name":"PHP",
-		"level":"Intermediate",
-		"sinfo":"Can manage backend of web apps at mid level."
-	},
-	{
-		"name":"PHP",
-		"level":"Intermediate",
-		"sinfo":"Can manage backend of web apps at mid level."
-	},
-	{
-		"name":"PHP",
-		"level":"Intermediate",
-		"sinfo":"Can manage backend of web apps at mid level."
-	},
-	{
-		"name":"PHP",
-		"level":"Intermediate",
-		"sinfo":"Can manage backend of web apps at mid level."
-	},
-	{
-		"name":"PHP",
-		"level":"Intermediate",
-		"sinfo":"Can manage backend of web apps at mid level."
-	},
-	{
-		"name":"PHP",
-		"level":"Intermediate",
-		"sinfo":"Can manage backend of web apps at mid level."
-	},*/
+
+    {
+        "icon":"icon/gear.png",
+        "name":"Programming Languages",
+        "list":
+        [
+            {
+                "name":"C++",
+                "level":"Intermediate",
+                "knows":["STL","OOP","Qt"]
+            },
+            {
+               "name":"Python","level":"Intermediate","knows":["requests","beautifulsoup","tkinter","pillow","regex","pyautogui"]
+            },
+            {
+               "name":"Java","level":"Beginner","knows":["OOP","sockets"]
+            },           
+        
+        ], 
+    
+    
+    },
+    {
+        "icon":"icon/gear.png",
+        "name":"Web Languages",
+        "list":
+        [
+            {
+                "name":"HTML5","level":"Intermediate","knows":["Local Storage","Canvas"]
+            },
+            {
+               "name":"PHP","level":"Intermediate","knows":["Laravel"]
+            },
+            {
+               "name":"Javascript","level":"Intermediate","knows":["DOM","NODEJs","jQuery","bootstrap"]
+            },           
+            {
+               "name":"Python","level":"Beginner","knows":["django","scrapy"]
+            },          
+        ],         
+    },
+    {
+        "icon":"icon/gear.png",
+        "name":"Databases",
+        "list":
+        [
+            {
+                "name":"MySQL","level":"Intermediate","knows":["SQL injection"]
+            },        
+        ],         
+    },
+    {
+        "icon":"icon/gear.png",
+        "name":"Data formats",
+        "list":
+        [
+            {
+                "name":"JSON","level":"Intermediate","knows":[""]
+            }, 
+            {
+                "name":"XML","level":"Beginner","knows":[]
+            },        
+        ],         
+    },
+    {
+        "icon":"icon/gear.png",
+        "name":"Tools",
+        "list":
+        [
+            {
+                "name":"Sublime-text3","level":"Beginner","knows":["Python Virtual Env"]
+            },
+            {
+                "name":"Pycharm","level":"Beginner","knows":[]
+            },        
+        ],         
+    },
+
 ];
 
 works = 
@@ -220,14 +258,28 @@ function loadEducations()
 function loadSkills()
 {
 	
-	var html = "",i,skill,stars,level;
+	var html = "",i,j,skill,level;
 	for(i=0;i<skills.length;i++)
 	{
 		skill = skills[i];
-	    html= html +
-		'<div id="" class="skill">\
-	        <span id="" class="name">'+skill['name']+'</span>&nbsp;&nbsp;\
-	    </div> ';
+	    html= html + 
+	    '<div id="" class="skill">\
+	    <img id="" class="icon" src="'+skill['icon']+'">\
+	    <span id="" class="name">'+skill['name']+'</span>\
+	    <table class="stable">';
+	    
+	    for(j=0;j<skill['list'].length;j++)	    
+	    {
+	        html = html +
+	        '<tr>\
+	        <td id="" class="sname">'+skill['list'][j].name+'</td>\
+	        <td id="" class="slevel">'+skill['list'][j].level+'</td>\
+            <td id="" class="sknows">Worked with:&nbsp;'+skill['list'][j].knows+'</td>\
+            </tr>';
+	        
+        }   
+	        
+	    html = html +'</table></div> ';
 	}
 	document.getElementById("skills").innerHTML = html;
 }
@@ -290,21 +342,21 @@ function loadPersonal()
   	for(i=0;i<personalInfo['address']['list'].length;i++)
 	{   
 		obj = personalInfo['address']['list'][i];
-		html = html + '<img class="icon" src="'+icon+'"><span id="" class="add">'+obj+'</span><br/>';
+		html = html + '<span id="" class="add"><img class="icon" src="'+icon+'">'+obj+'</span><br/>';
 	}
 
 	icon = 'icon/'+personalInfo['email']['icon'];
 	for(i=0;i<personalInfo['email']['list'].length;i++)
 	{   
 		obj = personalInfo['email']['list'][i];
-		html = html + '<img class="icon" src="'+icon+'"><span id="" class="email">'+obj+'</span>';
+		html = html + '<span id="" class="email"><img class="icon" src="'+icon+'">'+obj+'</span>';
 	}
 
 	icon = 'icon/'+personalInfo['mob']['icon'];
 	for(i=0;i<personalInfo['mob']['list'].length;i++)
 	{   
 		obj = personalInfo['mob']['list'][i];
-		html = html + '<img class="icon" src="'+icon+'"><span id="" class="mob">'+obj+'</span>';
+		html = html + '<span id="" class="mob"><img class="icon" src="'+icon+'">'+obj+'</span>';
 	}
     html = html + '</div>';
 
