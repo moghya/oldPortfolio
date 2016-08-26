@@ -265,7 +265,7 @@ function loadSkills()
 	    html= html + 
 	    '<div id="" class="skill">\
 	    <img id="" class="icon" src="'+skill['icon']+'">\
-	    <span id="" class="name">'+skill['name']+'</span><br>s\
+	    <span id="" class="name">'+skill['name']+'</span>\
 	    <table class="stable">';
 	    
 	    for(j=0;j<skill['list'].length;j++)	    
