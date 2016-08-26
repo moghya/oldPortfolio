@@ -55,7 +55,7 @@ skills=
 [
 
     {
-        "icon":"icon/gear.png",
+        "icon":"icon/configuration-gear-sketch.png",
         "name":"Programming Languages",
         "list":
         [
@@ -76,7 +76,7 @@ skills=
     
     },
     {
-        "icon":"icon/gear.png",
+        "icon":"icon/configuration-gear-sketch.png",
         "name":"Web Languages",
         "list":
         [
@@ -95,7 +95,7 @@ skills=
         ],         
     },
     {
-        "icon":"icon/gear.png",
+        "icon":"icon/configuration-gear-sketch.png",
         "name":"Databases",
         "list":
         [
@@ -105,7 +105,7 @@ skills=
         ],         
     },
     {
-        "icon":"icon/gear.png",
+        "icon":"icon/configuration-gear-sketch.png",
         "name":"Data formats",
         "list":
         [
@@ -118,7 +118,7 @@ skills=
         ],         
     },
     {
-        "icon":"icon/gear.png",
+        "icon":"icon/configuration-gear-sketch.png",
         "name":"Tools",
         "list":
         [
