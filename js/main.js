@@ -87,7 +87,7 @@ skills=
                "name":"PHP","level":"Intermediate","knows":["Laravel"]
             },
             {
-               "name":"Javascript","level":"Intermediate","knows":["DOM","NODEJs","jQuery","bootstrap"]
+               "name":"Javascript","level":"Intermediate","knows":["DOM","jQuery","bootstrap"]
             },           
             {
                "name":"Python","level":"Beginner","knows":["django","scrapy"]
@@ -100,7 +100,7 @@ skills=
         "list":
         [
             {
-                "name":"MySQL","level":"Intermediate","knows":["SQL injection"]
+                "name":"MySQL","level":"Intermediate","knows":[]
             },        
         ],         
     },
@@ -123,7 +123,7 @@ skills=
         "list":
         [
             {
-                "name":"Sublime-text3","level":"Beginner","knows":["Python Virtual Env"]
+                "name":"Sublime-text3","level":"Beginner","knows":[""]
             },
             {
                 "name":"Pycharm","level":"Beginner","knows":[]
