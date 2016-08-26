@@ -92,3 +92,11 @@ h1
 {
     font-size: 15px;
 }
+.stable 
+{
+    padding-left:5%;
+}
+.stable td,tr
+{
+    padding:1%;
+}
