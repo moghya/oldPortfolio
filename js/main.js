@@ -130,6 +130,19 @@ skills=
             },        
         ],         
     },
+    {
+        "icon":"icon/configuration-gear-sketch.png",
+        "name":"Machine Learning",
+        "list":
+        [
+            {
+                "name":"Linear Regression and Logistic Regression","level":"Beginner","knows":["skLearn"]
+            },
+            {
+                "name":"Neural Networks","level":"Beginner","knows":[""]
+            },        
+        ],         
+    },
 
 ];
 
