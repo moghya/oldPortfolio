@@ -66,10 +66,7 @@ skills=
             },
             {
                "name":"Python","level":"Intermediate","knows":["requests","beautifulsoup","tkinter","pillow","regex","pyautogui"]
-            },
-            {
-               "name":"Java","level":"Beginner","knows":["OOP","sockets"]
-            },           
+            },      
         
         ], 
     
