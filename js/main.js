@@ -27,7 +27,7 @@ educations=
 		"periodStart":"July 2014",
 		"periodEnd":"May 2018",
 		"course":"B.Tech Information Technology",
-		"score":"6.99 CGPA",
+		"score":"7.12 CGPA",
 		"inst":"Walchand College of Engineering, Sangli",
 		"board":"Shivaji University"
 	},
@@ -127,26 +127,14 @@ skills=
             },        
         ],         
     },
-    {
-        "icon":"icon/configuration-gear-sketch.png",
-        "name":"Machine Learning",
-        "list":
-        [
-            {
-                "name":"Linear Regression and Logistic Regression","level":"Beginner","knows":["skLearn"]
-            },
-            {
-                "name":"Neural Networks","level":"Beginner","knows":[""]
-            },        
-        ],         
-    },
+
 
 ];
 
 works = 
 [
 	{
-		"workPosition":"Scout Troop Leader",
+	"workPosition":"Scout Troop Leader",
         "periodStart":"April 2010",
         "periodEnd":"May 2012",
         "organisation":"JNV,Washim",
