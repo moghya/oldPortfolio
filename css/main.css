@@ -4,6 +4,7 @@
     width:300px;
     border-radius:150px;
     border-color: gray;
+    filter: grayscale(1);
 }
 #main
 {
