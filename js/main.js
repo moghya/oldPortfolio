@@ -1,6 +1,6 @@
 
 personalInfo = {
-	"myimg":"my.png",
+	"myimg":"image.jpg",
 	"fname":"Shubham",
 	"mname":"Parashram",
 	"lname":"Sawant",
